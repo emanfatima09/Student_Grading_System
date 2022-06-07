@@ -63,6 +63,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assesment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Assesment.Designer.cs">
+      <DependentUpon>Assesment.cs</DependentUpon>
+    </Compile>
     <Compile Include="BusinessLayer\LoginBL.cs" />
     <Compile Include="DataLayer\DBConnect.cs" />
     <Compile Include="DataLayer\LoginDL.cs" />
@@ -81,6 +87,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Assesment.resx">
+      <DependentUpon>Assesment.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Faculty.resx">
       <DependentUpon>Faculty.cs</DependentUpon>
     </EmbeddedResource>

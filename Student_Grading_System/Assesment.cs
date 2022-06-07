@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Student_Grading_System
 {
-    public partial class Assement : Form
+    public partial class Assesment : Form
     {
-        public Assement()
+        public Assesment()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

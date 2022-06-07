@@ -40,7 +40,9 @@ namespace Student_Grading_System
             }
             else
             {
-                MessageBox.Show("Login Succesful");
+                Faculty fac_scrn = new Faculty();
+                fac_scrn.Show();
+                
             }
         }
     }
