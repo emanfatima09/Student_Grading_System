@@ -15,6 +15,14 @@ namespace Student_Grading_System
         public Faculty()
         {
             InitializeComponent();
+           
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Assesment assesment_screen = new Assesment();
+            assesment_screen.Show();
+            
         }
     }
 }
