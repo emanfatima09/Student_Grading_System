@@ -71,6 +71,7 @@
     </Compile>
     <Compile Include="BusinessLayer\LoginBL.cs" />
     <Compile Include="DataLayer\DBConnect.cs" />
+    <Compile Include="DataLayer\FacultyDL.cs" />
     <Compile Include="DataLayer\LoginDL.cs" />
     <Compile Include="DataTransferObject\LoginDTO.cs" />
     <Compile Include="Faculty.cs">
